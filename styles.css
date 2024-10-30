@@ -1,0 +1,100 @@
+body {
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.motherContainer {
+width: 90rem; 
+background-color: black;
+display: flex;
+justify-content: center;
+}
+
+.container {
+background-color: hsl(0, 0%, 12%);
+width: 31.25rem;
+height: 46.875rem;
+border-radius: 3%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+margin: 100px;
+}
+
+.buttom {
+width: 25rem; 
+color: white;
+border-radius: 0.25rem; 
+margin: 1.5625rem auto; 
+height: 3.125rem; 
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: hsl(0, 0%, 20%);
+font-size: 0.875rem; /* 14px */
+font-family: Inter;
+font-weight: 700;
+}
+
+.buttoms {
+height: 53.5%;
+align-content: center;
+padding-bottom: 1.25rem; 
+}
+
+img {
+border-radius: 100%;
+height: 7.5rem; 
+width: 7.5rem; 
+}
+
+.image-text {
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 46.5%;
+justify-content: space-around;
+margin-top: 3.125rem; 
+}
+
+h1 {
+font-family: Inter;
+font-weight: 600;
+margin-bottom: 0.625rem; 
+}
+
+.p2 {
+color: hsl(75, 94%, 57%);
+font-family: Inter;
+font-size: 0.875rem; 
+font-weight: 600;
+margin-top: 0;
+}
+
+.p3 {
+font-family: Inter;
+font-size: 0.875rem; 
+font-weight: 400;
+position: relative;
+top: 0.625rem; 
+}
+
+.buttom:hover {
+cursor: pointer;
+color: black;
+background-color: hsl(75, 94%, 57%);
+}
+
+.buttom:focus {
+background: hsl(75, 94%, 57%);
+color: black;
+}
+
+.attribution {
+color: white;
+}
